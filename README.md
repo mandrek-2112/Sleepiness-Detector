@@ -1,5 +1,5 @@
 # Sleepiness-Detector
-Uses python3 libraries and DLIB to detect drowsiness in a video stream.
+Uses *python3 libraries* and *DLIB* to detect **drowsiness** in a video stream.
 
 # Organization
 ```bash
@@ -25,9 +25,10 @@ Uses python3 libraries and DLIB to detect drowsiness in a video stream.
 └── train_shape_predictor.py
 ```
 
-
 # Usage
+```bash
 python3 detect_drowsiness.py -p eye_predictor.dat -s 0.25 -a alarm.wav
+```
 
 # Pre-requisites 
 OpenCV 
