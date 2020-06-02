@@ -3,24 +3,43 @@ Uses python3 libraries and DLIB to detect drowsiness in a video stream.
 
 # Organization
 .
+
 ├── alarm.wav
+
 ├── detect_drowsiness.py
+
 ├── evaluate_shape_predictor.py
+
 ├── eye_predictor.dat
+
 ├── ibug_300W_large_face_landmark_dataset
+
 │   ├── afw
+
 │   ├── helen
+
 │   ├── ibug
+
 │   ├── image_metadata_stylesheet.xsl
+
 │   ├── labels_ibug_300W_test_eyes.xml
+
 │   ├── labels_ibug_300W_test.xml
+
 │   ├── labels_ibug_300W_train_eyes.xml
+
 │   ├── labels_ibug_300W_train.xml
+
 │   ├── labels_ibug_300W.xml
+
 │   └── lfpw
+
 ├── ibug_300W_large_face_landmark_dataset.tar.gz
+
 ├── parse_xml.py
+
 ├── predict_eyes.py
+
 └── train_shape_predictor.py
 
 # Usage
