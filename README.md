@@ -31,11 +31,11 @@ python3 detect_drowsiness.py -p eye_predictor.dat -s 0.25 -a alarm.wav
 ```
 
 # Pre-requisites 
-OpenCV 
-DLIB
-Playsound
-Scipy
-Imutils
+* OpenCV 
+* DLIB
+* Playsound
+* Scipy
+* Imutils
 
 # References 
 1. V. Kazemi and J. Sullivan, "One millisecond face alignment with an ensemble of regression trees," 
